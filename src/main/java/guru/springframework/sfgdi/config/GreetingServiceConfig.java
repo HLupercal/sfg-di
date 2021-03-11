@@ -15,6 +15,7 @@ public class GreetingServiceConfig {
         return new I18nEnglishGreetingService();
     }
 
+
     @Primary
     @Bean
     PrimaryGreetingService primaryGreetingService() {
